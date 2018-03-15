@@ -1,0 +1,179 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  background: $main-bg-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+
+#email-builder{
+  height: 100%;
+}
+
+#email-builder .main-container {
+  margin-left: 250px;
+  background: $main-bg-color;
+  height: 100%;
+
+  .holder-container {
+    margin-left: 350px;
+    width: 700px;
+    height: 100%;
+  }
+
+}
+
+#email-builder .sidebar-top {
+  padding: 10px;
+  text-align: center;
+
+  .item {
+    display: inline-block;
+    cursor: pointer;
+    color: $button-top-sidebar-color;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px;
+    background: $button-top-sidebar-bg-color;
+    min-width: 20px;
+    border-radius: 3px;
+  }
+
+  .item-last {
+    display: block;
+    float: right;
+    padding: 5px 15px;
+    text-transform: uppercase;
+  }
+
+  .template-preview-mobile{
+    color: $button-mobile-preview-color;
+    background: $button-mobile-preview-bg-color;
+    &:hover{
+      color: $button-mobile-preview-active-color;
+      background: $button-mobile-preview-active-bg-color;
+    }
+  }
+
+  .template-preview-tablet{
+    color: $button-tablet-preview-color;
+    background: $button-tablet-preview-bg-color;
+    &:hover{
+      color: $button-tablet-preview-active-color;
+      background: $button-tablet-preview-active-bg-color;
+    }
+  }
+
+  .template-clear{
+    color: $button-template-clear-color;
+    background: $button-template-clear-bg-color;
+    &:hover{
+      color: $button-template-clear-active-color;
+      background: $button-template-clear-active-bg-color;
+    }
+  }
+
+}
+
+#email-builder .editor-container {
+  padding-top: 1rem;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+  .editor {
+    min-height: 500px;
+    background: $editor-bg-color;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+    position: relative;
+  }
+
+}
+
+.alert{
+  padding: 5px 10px;
+  &.bg-danger{
+    color: $alert-danger-color;
+    background: $alert-danger-bg-color;
+  }
+}
+
+.main-form-container{
+  width:450px;
+  margin:0px auto;
+  padding-top: 100px;
+
+  .form-login-container{
+    text-align: center;
+    img{
+      max-height: 50px;
+      width: auto;
+    }
+  }
+
+  .btn-form-action{
+    margin-top:20px;
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    color: $button-top-sidebar-color;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px;
+    background: $button-top-sidebar-bg-color;
+    min-width: 20px;
+    border-radius: 3px;
+
+    &:hover{
+      color: $button-template-clear-active-color;
+      background: $button-template-clear-active-bg-color;
+    }
+  }
+
+  form{
+    background: $editor-bg-color;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+    padding:20px;
+
+    .btn-primary{
+      cursor: pointer;
+      width:30%;
+      display: inline-block;
+      border: 0px;
+      padding: 20px 0px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $button-modal-apply-color;
+      background: $button-modal-apply-bg-color;
+
+      &:hover{
+        color: $button-modal-apply-active-color;
+        background: $button-modal-apply-active-bg-color;
+      }
+    }
+
+    .form-group{
+      padding-top:20px;
+
+      .form-control{
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        padding: 10px 5px;
+        border: 1px solid $main-sidebar-bg-color;
+      }
+    }
+  }
+}
+
+

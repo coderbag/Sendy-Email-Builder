@@ -1,0 +1,18 @@
+.main-form-container,
+.sidebar-main,
+.sidebar-second,
+.sidebar-top,
+.module-controls-container,
+.module-code-controls,
+.modal-controls
+{
+  a,
+  button,
+  .item,
+  .subnav-item,
+  .btn-code-control,
+  .btn-module,
+  .btn-form-action{
+    transition: all 0.2s ease;
+  }
+}

@@ -1,0 +1,9 @@
+# Clean Up
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.idea
+
+# NPM
+node_modules/

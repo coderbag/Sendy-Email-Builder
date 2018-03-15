@@ -1,0 +1,145 @@
+.modal-container {
+  display: none;
+  position: relative;
+
+  .modal-container-inner{
+    overflow: hidden;
+  }
+
+  .input-group{
+    padding-top:20px;
+
+    .input-control{
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      padding: 10px 5px;
+    }
+  }
+
+  .modal-controls{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width: 100%;
+
+    button{
+      width:50%;
+      float:left;
+      display: inline-block;
+      border: 0px;
+      padding: 20px 0px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $button-modal-color;
+      background: $button-modal-color;
+    }
+    .modal-btn-cancel{
+      color: $button-modal-cancel-color;
+      background: $button-modal-cancel-bg-color;
+      &:hover{
+        color: $button-modal-cancel-active-color;
+        background: $button-modal-cancel-active-bg-color;
+      }
+    }
+    .modal-btn-ok{
+      float:right;
+      color: $button-modal-apply-color;
+      background: $button-modal-apply-bg-color;
+      &:hover{
+        color: $button-modal-apply-active-color;
+        background: $button-modal-apply-active-bg-color;
+      }
+    }
+  }
+
+}
+
+#linkeditor{
+  width: 400px;
+  height: 230px;
+}
+
+#linkeditor{
+  width: 400px;
+  height: 230px;
+}
+
+#imageeditor{
+  width: 750px;
+  height: 500px;
+
+  .input-group{
+    width:29%;
+    float:left;
+
+    .input-control-small{
+      width: 30%;
+    }
+  }
+
+  .slim{
+    width: 69%;
+    float:right;
+    height: 370px;
+    margin-top: 20px
+  }
+}
+
+#bgeditor{
+  width: 750px;
+  height: 500px;
+
+  .slim{
+    height: 370px;
+    margin-top: 20px
+  }
+}
+
+#sendyhelpers {
+  width: 750px;
+  height: 500px;
+
+  pre{
+    padding: 2px 4px;
+    color: #d14;
+    background-color: #F9F9F9;
+    border: 1px solid #f2f2f2;
+  }
+}
+
+#campaignmodal {
+  width: 750px;
+  height: 500px;
+
+  .input-row{
+    overflow: hidden;
+
+    .checkbox-wrapper{
+      height:100px;
+      overflow-y: scroll;
+
+      label{
+        display: block;
+      }
+    }
+
+    .input-group{
+      float: left;
+      width: 49%;
+
+      textarea{
+        height: 100px;
+        resize: none;
+        width: 100%;
+      }
+
+      &:first-child{
+        float: left;
+      }
+      &:last-child{
+        float: right;
+      }
+    }
+  }
+}

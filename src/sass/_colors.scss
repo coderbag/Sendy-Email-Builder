@@ -1,0 +1,194 @@
+/**
+ * COLORS
+ */
+
+/* ======= GENERAL ======= */
+
+$main-color: #c4c4c4;
+$main-bg-color: #f1f1f1;
+$editor-bg-color: #fff;
+
+$placeholder-border-color: #a2a2a2;
+$placeholder-color: #a2a2a2;
+
+/* ======= MAIN SIDEBAR ======= */
+
+$main-sidebar-bg-color: #2A2C31;
+$main-sidebar-color: #808080;
+
+/* Logo Container */
+$logo-color: #fff;
+$logo-bg-color: #33363B;
+
+/* Nav Items */
+$nav-item-color: #808080;
+$nav-item-active-color: #fff;
+
+/* Sub Nav Items */
+$subnav-item-color: #808080;
+$subnav-item-active-color: #fff;
+$subnav-item-border-color: #2A2C31;
+$subnav-item-border-active-color: #58C0B0;
+$subnav-item-active-bg-color: #202326;
+
+
+/* ======= SECOND SIDEBAR ======= */
+
+$second-sidebar-bg-color: #202326;
+$second-sidebar-input-border-color: #f1f1f1;
+$second-sidebar-header-color: #A3A3A3;
+
+/* Module List */
+$second-sidebar-module-color: #A3A3A3;
+$second-sidebar-module-color: #fff;
+
+/* Module Options */
+$option-main-color: #fff;
+$option-border-color: #35383d;
+$option-label-color: #848484;
+
+
+/* ======= BUTTONS ======= */
+
+/* === Sidebar Buttons === */
+
+/* Main Button */
+// Normal State
+$button-main-color: #fff;
+$button-main-bg-color: #58C0B0;
+// Active / Hover State
+$button-main-active-color: #fff;
+$button-main-active-bg-color: #499E91;
+
+/* Secondary Button */
+// Normal State
+$button-secondary-color: #fff;
+$button-secondary-bg-color: #232629;
+// Active / Hover State
+$button-secondary-active-color: #fff;
+$button-secondary-active-bg-color: #37393C;
+
+/* Background Option Button */
+// Normal State
+$button-module-bgoption-color: #fff;
+$button-module-bgoption-bg-color: #58C0B0;
+// Active / Hover State
+$button-module-bgoption-active-color: #fff;
+$button-module-bgoption-active-bg-color: #499E91;
+
+
+/* === Module Buttons === */
+
+$button-module-color: #fff;
+$button-module-bg-color: #CDCDCD;
+
+/* Sort/Drag Button */
+// Normal State
+$button-module-sort-color: #fff;
+$button-module-sort-bg-color: #CDCDCD;
+// Active / Hover State
+$button-module-sort-active-color: #fff;
+$button-module-sort-active-bg-color: #56A0D8;
+
+/* Copy Button */
+// Normal State
+$button-module-copy-color: #fff;
+$button-module-copy-bg-color: #CDCDCD;
+// Active / Hover State
+$button-module-copy-active-color: #fff;
+$button-module-copy-active-bg-color: #EA9E2C;
+
+/* Code Button */
+// Normal State
+$button-module-code-color: #fff;
+$button-module-code-bg-color: #CDCDCD;
+// Active / Hover State
+$button-module-code-active-color: #fff;
+$button-module-code-active-bg-color: #92BFB1;
+
+/* Remove Button */
+// Normal State
+$button-module-remove-color: #fff;
+$button-module-remove-bg-color: #CDCDCD;
+// Active / Hover State
+$button-module-remove-active-color: #fff;
+$button-module-remove-active-bg-color: #F05A5A;
+
+
+/* Code Edit Button */
+$button-code-color: #fff;
+$button-code-bg-color: #CDCDCD;
+
+/* Code Apply Button */
+// Normal State
+$button-code-apply-color: #fff;
+$button-code-apply-bg-color: #CDCDCD;
+// Active / Hover State
+$button-code-apply-active-color: #fff;
+$button-code-apply-active-bg-color: #58C0B0;
+
+/* Code Cancel Button */
+// Normal State
+$button-code-cancel-color: #fff;
+$button-code-cancel-bg-color: #CDCDCD;
+// Active / Hover State
+$button-code-cancel-active-color: #fff;
+$button-code-cancel-active-bg-color: #F05A5A;
+
+
+/* === Modal Buttons === */
+
+/* Modal Button */
+$button-modal-color: #fff;
+$button-modal-bg-color: #CDCDCD;
+
+/* Modal Apply Button */
+// Normal State
+$button-modal-apply-color: #fff;
+$button-modal-apply-bg-color: #58C0B0;
+// Active / Hover State
+$button-modal-apply-active-color: #fff;
+$button-modal-apply-active-bg-color: #499E91;
+
+/* Modal Cancel Button */
+// Normal State
+$button-modal-cancel-color: #fff;
+$button-modal-cancel-bg-color: #CDCDCD;
+// Active / Hover State
+$button-modal-cancel-active-color: #fff;
+$button-modal-cancel-active-bg-color: #969696;
+
+
+/* === Top Sidebar Buttons === */
+
+/* Main Button */
+$button-top-sidebar-color: #c4c4c4;
+$button-top-sidebar-bg-color: #eee;
+
+/* Template Mobile Preview Button */
+// Normal State
+$button-mobile-preview-color: #c4c4c4;
+$button-mobile-preview-bg-color: #eee;
+// Active / Hover State
+$button-mobile-preview-active-color: #c4c4c4;
+$button-mobile-preview-active-bg-color: #ECECEC;
+
+/* Template Tablet Preview Button */
+// Normal State
+$button-tablet-preview-color: #c4c4c4;
+$button-tablet-preview-bg-color: #eee;
+// Active / Hover State
+$button-tablet-preview-active-color: #c4c4c4;
+$button-tablet-preview-active-bg-color: #ECECEC;
+
+/* Clear the Template Button */
+// Normal State
+$button-template-clear-color: #c4c4c4;
+$button-template-clear-bg-color: #eee;
+// Active / Hover State
+$button-template-clear-active-color: #fff;
+$button-template-clear-active-bg-color: #F05A5A;
+
+// Alert
+$alert-danger-color: #fff;
+$alert-danger-bg-color: #F05A5A;

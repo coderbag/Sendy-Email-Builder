@@ -1,0 +1,26 @@
+{
+  "name": "emailbuilder-sendy",
+  "version": "1.0.0",
+  "description": "Drag'n'Drop Email Builder for Sendy",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "DigitalWheat",
+  "license": "MIT",
+  "devDependencies": {
+    "@claviska/jquery-minicolors": "^2.2.4",
+    "@fancyapps/fancybox": "^3.0.48",
+    "codemirror": "^5.25.0",
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "laravel-mix": "^0.10.0",
+    "medium-editor": "^5.23.0",
+    "sweetalert": "^1.1.3"
+  }
+}

@@ -1,0 +1,130 @@
+
+.module-code-container {
+  position: relative;
+  .module-code-controls {
+    position: absolute;
+    z-index: 99;
+    top: 0px;
+    right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    .btn-code-control {
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      color: $button-code-color;
+      background: $button-code-bg-color;
+    }
+
+    .btn-code-update{
+      color: $button-code-apply-color;
+      background: $button-code-apply-bg-color;
+      &:hover{
+        color: $button-code-apply-active-color;
+        background: $button-code-apply-active-bg-color;
+      }
+    }
+
+    .btn-code-cancel{
+      color: $button-code-cancel-color;
+      background: $button-code-cancel-bg-color;
+      &:hover{
+        color: $button-code-cancel-active-color;
+        background: $button-code-cancel-active-bg-color;
+      }
+    }
+
+  }
+}
+
+.editor .module-placeholder {
+  padding: 20px;
+  border: 2px dashed $placeholder-border-color;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 180px;
+  &:after {
+    text-align: center;
+    font-size: 72px;
+    color: $placeholder-color;
+    content: "\f019";
+    font-family: 'emailbuilder-icon-font';
+  }
+}
+
+
+.editor .module-container {
+  position: relative;
+  > table {
+    position: relative;
+  }
+}
+.editor .module-controls-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  .btn-module {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: $button-module-color;
+    background: $button-module-bg-color;
+  }
+
+  .btn-module-sort{
+    color: $button-module-sort-color;
+    background: $button-module-sort-bg-color;
+
+    &:hover{
+      color: $button-module-sort-active-color;
+      background: $button-module-sort-active-bg-color;
+    }
+  }
+
+  .btn-module-duplicate{
+    color: $button-module-copy-color;
+    background: $button-module-copy-bg-color;
+
+    &:hover{
+      color: $button-module-copy-active-color;
+      background: $button-module-copy-active-bg-color;
+    }
+  }
+
+  .btn-module-code{
+    color: $button-module-code-color;
+    background: $button-module-code-bg-color;
+
+    &:hover{
+      color: $button-module-code-active-color;
+      background: $button-module-code-active-bg-color;
+    }
+  }
+
+  .btn-module-delete{
+    color: $button-module-remove-color;
+    background: $button-module-remove-bg-color;
+
+    &:hover{
+      color: $button-module-remove-active-color;
+      background: $button-module-remove-active-bg-color;
+    }
+  }
+
+}
